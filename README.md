@@ -1,20 +1,22 @@
-AirCanvas – Draw with Your Fingertip Using Python
-AirCanvas is a computer vision project built with Python and OpenCV that lets you draw in real-time using just your index finger and a webcam. It detects hand gestures and allows color selection, drawing, and canvas clearing—all without touching your screen.
+AirCanvas – Gesture-Based Drawing Using Python and OpenCV
+AirCanvas is an interactive computer vision project that enables users to draw in mid-air using hand gestures tracked via webcam. Designed using Python, OpenCV, and MediaPipe, this project demonstrates real-time gesture recognition and dynamic virtual drawing without any physical contact.
 
-Features
-Real-time hand tracking with MediaPipe
+✅ What It Does
+Tracks your index finger in real-time using webcam input
 
-Draw using index finger movement
+Allows you to draw on a virtual canvas just by moving your hand
 
-Gesture-based color selection
+Lets you switch colors by hovering over color boxes on screen
 
-Clear screen with gesture control
+Clears the canvas with a specific hand gesture
 
-Tech Stack
-Python
+Blends live video with a dynamic drawing overlay
 
-OpenCV
+🔧 Technologies Used
+Python – Backend logic
 
-MediaPipe
+OpenCV – Frame capturing and image processing
 
-NumPy
+MediaPipe – Real-time hand landmark detection
+
+NumPy – Canvas operations and masking
